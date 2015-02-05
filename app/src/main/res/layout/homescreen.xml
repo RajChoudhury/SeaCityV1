@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="#fff2f2f2"
+        android:paddingLeft="30dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SeaCity App"
+            android:id="@+id/txt_h_title"
+            android:textColor="#ff2daae4"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:src="@drawable/ic_cog"
+            android:layout_marginLeft="40dp"
+            android:background="@color/lightgrey_topbar"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="#ff2daae4"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Location"
+            android:id="@+id/textView2"
+            android:layout_weight="0.76"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Translator"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#ff2daae4"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="365dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/ic_location_pin"
+            android:background="#2DAAE4"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="70dp" />
+
+        <ImageButton
+            android:layout_width="52dp"
+            android:layout_height="58dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/ic_translator"
+            android:background="#2DAAE4"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="0.13" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="#2DAAE4"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Find out where you are"
+            android:id="@+id/textView"
+            android:textColor="#ff050000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Choose a language"
+            android:id="@+id/textView4"
+            android:textColor="#ff050000"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+</LinearLayout>
