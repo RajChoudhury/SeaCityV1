@@ -4,5 +4,30 @@
     <string name="app_name">SeaCityV1</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="text_information">Information</string>
+    <string name="text_ScreenReader">Screen Reader</string>
+    <string name="text_seacityapp">SeaCity App</string>
+    <string name="holder_0">0</string>
+    <string name="text_location">Location</string>
+    <string name="text_translator">Translator</string>
+    <string name="icon_location">icon_location</string>
+    <string name="icon_translator">icon_translator</string>
+    <string name="text_location_description">Find out where you are</string>
+    <string name="text_translator_description">Choose a language</string>
+    <string name="icon_screenreader">icon_screenreader</string>
+    <string name="icon_information">icon_information</string>
+    <string name="text_screen_description">Screen reader friendly text</string>
+    <string name="text_info_description">Download information</string>
+    <string name="text_tracker">Progress Tracker</string>
+    <string name="icon_flag">icon_flag</string>
+    <string name="text_progress_description">Find out how far you are into the museum and how long till the end.</string>
+    <string name="title_activity_location_nfc">LocationNFC</string>
+    <string name="title_activity_translate_nfc">TranslateNFC</string>
+    <string name="title_activity_screen_reader_nfc">ScreenReaderNFC</string>
+    <string name="title_activity_information_nfc">InformationNFC</string>
+    <string name="title_activity_progress_nfc">ProgressNFC</string>
+    <string name="text_image_description">Download images</string>
+    <string name="b_save">Save</string>
+    <string name="b_new">New</string>
 
 </resources>
