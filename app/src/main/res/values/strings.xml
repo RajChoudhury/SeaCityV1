@@ -29,5 +29,10 @@
     <string name="text_image_description">Download images</string>
     <string name="b_save">Save</string>
     <string name="b_new">New</string>
+    <string name="locaton_image_view">location image view</string>
+    <string name="progress_image_click">progress image clicker</string>
+    <string name="photo_click_download">photo download clicker</string>
+    <string name="click_translate">click translate page</string>
+    <string name="click_screen_reader">click screen reader page</string>
 
 </resources>

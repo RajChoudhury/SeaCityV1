@@ -185,5 +185,6 @@ public class NfcHelper {
         return new NdefMessage(new NdefRecord[] { record });
     }
 
+
 }
 

@@ -2,7 +2,6 @@ package com.example.rifaz.seacityv1;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,17 +14,17 @@ public class StartMenu extends Activity {
     private ImageView translate;
     private ImageView screenReader;
     private ImageView progress;
-    private ImageView information;
+    private ImageView photo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homescreen);
         location = (ImageView) findViewById(R.id.ic_location);
-        translate = (ImageView) findViewById(R.id.ic_translate);
-        screenReader = (ImageView) findViewById(R.id.ic_screen);
+        translate = (ImageView) findViewById(R.id.ic_translator);
+        screenReader = (ImageView) findViewById(R.id.ic_screen_reader);
         progress = (ImageView) findViewById(R.id.ic_progress);
-        information = (ImageView) findViewById(R.id.ic_information);
+        photo = (ImageView) findViewById(R.id.ic_photo);
 
         location.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +37,7 @@ public class StartMenu extends Activity {
         translate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),TranslateNFC.class);
+                Intent intent = new Intent(getApplicationContext(), TranslateNFC.class);
                 startActivity(intent);
             }
         });
@@ -46,7 +45,7 @@ public class StartMenu extends Activity {
         screenReader.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),ScreenReaderNFC.class);
+                Intent intent = new Intent(getApplicationContext(), ScreenReaderNFC.class);
                 startActivity(intent);
             }
         });
@@ -54,18 +53,20 @@ public class StartMenu extends Activity {
         progress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),ProgressNFC.class);
+                Intent intent = new Intent(getApplicationContext(), ProgressNFC.class);
                 startActivity(intent);
             }
         });
 
-        information.setOnClickListener(new View.OnClickListener() {
+        photo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),InformationNFC.class);
+                Intent intent = new Intent(getApplicationContext(), PhotoNFC.class);
                 startActivity(intent);
             }
         });
+
+
     }
 
 
@@ -91,5 +92,7 @@ public class StartMenu extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 
 }
